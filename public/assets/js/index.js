@@ -1,9 +1,20 @@
 const express = require("express");
 const app = express();
 
+// app.set('view engine', 'ejs');
+
 app.get('/', (req, res) => {
   console.log('here');
-  res.send('hi')
+
+  // you'll either be sending down some JSON or rendering a file with Express.js (mainly)
+  // RENDER A FILE
+  res.render('index')
+
+  // DOWNLOADABLE FILE send a file to user to download and pass the path
+  // res.download('public/assets/js/server.js')
+
+  // consoles {"message":"Error"}
+  // res.json({ message: "Error" })
 })
 
 app.listen(3000);
