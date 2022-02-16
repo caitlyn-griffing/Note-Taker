@@ -2,7 +2,7 @@ const express = require('express');
 // make sure the R is capitalized
 const router = express.Router();
 // json file in the db folder used to store and retrieve items
-const db = require('../db/db.json');
+let db = require('../db/db.json');
 
 const uniqid = require('uniqid')
 
@@ -23,8 +23,11 @@ router
     
 router.delete('/notes/:id', (req, res) => {
     const objectId = req.params.id
-    console.log(objectId)
-    db.filter(req.body)
+    // console.log(objectId)
+    const newArray = db.filter(function (obj) {
+        return obj.id !== objectId
+    })
+    db = newArray
     console.log(db)
     res.json(req.body)
 })
