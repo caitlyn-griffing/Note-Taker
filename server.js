@@ -1,16 +1,20 @@
 const express = require("express");
+const api = require("./api/notes");
 const app = express();
+const path = require('path')
+
 
 app.use(express.static('public'))
 
-// app.get('/', (req, res) => {
-//     console.log("Caitlyn")
-//     res.send("Caitlyn G")
-// })
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'))
+})
 
-const routers = require("./routes/notesRouter")
+app.use('/api', api)
 
-app.use("/notesRouter", routers)
+app.get('/notes', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/notes.html'))
+})
 
 app.listen(3000);
 
