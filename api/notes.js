@@ -7,10 +7,10 @@ const db = require('../db/db.json');
 router
     // .use(express.json())
 
-    .get('/', (req, res) => {
+    .get('/notes', (req, res) => {
         res.json(db)
     })
-    .post('/', (req, res) => {
+    .post('/notes', (req, res) => {
         db.push(req.body)
         res.json(db)
     })
