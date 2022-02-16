@@ -4,6 +4,10 @@ let saveNoteBtn;
 let newNoteBtn;
 let noteList;
 
+window.addEventListener('click', () => {
+  console.log('click')
+})
+
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
   noteText = document.querySelector('.note-textarea');
@@ -34,7 +38,7 @@ const getNotes = () =>
   });
 
 const saveNote = (note) =>
-  fetch('./api/notes', {
+  fetch('/api/notes', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

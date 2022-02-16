@@ -3,18 +3,25 @@ const api = require("./api/notes");
 const app = express();
 const path = require('path')
 
+// const id = require("./api/notes/id")
 
+// built-in express middleware function serving CSS files
+app.use(express.json())
 app.use(express.static('public'))
 
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'))
-})
-
+// test-title note blocks
 app.use('/api', api)
 
+// localhost:3000/notes
 app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/notes.html'))
 })
+
+// app.get('/:id', (res, req) => {
+//     res.sendFile(path.join(__dirname, 'public/notes.html'))
+// })
+
+
 
 app.listen(3000);
 
@@ -39,3 +46,8 @@ app.listen(3000);
 
     // consoles {"message":"Error"}
     // res.json({ message: "Error" })
+    
+    // above the app api /api 
+    // app.get('/', (req, res) => {
+    // res.sendFile(path.join(__dirname, 'index.html'))
+// })
