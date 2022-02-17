@@ -21,14 +21,14 @@ I have modified start code to create an application that can be used to write an
 ## Images of Deployed Web Page
 
 
-![Image 1](assets/images/ntSS1.png)
+![Image 1](public/assets/images/ntSS1.png)
 
-![Image 2](assets/images/ntSS2.png)
+![Image 2](public/assets/images/ntSS2.png)
 
-![Image 3](assets/images/ntSS3.png)
+![Image 3](public/assets/images/ntSS3.png)
 
-![Image 4](assets/images/ntSS4.png)
+![Image 4](public/assets/images/ntSS4.png)
 
-![Image 5](assets/images/ntSS5.png)
+![Image 5](public/assets/images/ntSS5.png)
 
 ---
