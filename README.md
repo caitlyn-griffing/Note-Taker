@@ -11,7 +11,7 @@ I have modified start code to create an application that can be used to write an
 
 ## Important Links
 
-- [Deployed URL](https://caitlyn-griffing.github.io/note-taker/)
+- [Deployed Heroku URL](https://post-yo-note.herokuapp.com/)
 
 - [GitHub URL](https://github.com/caitlyn-griffing/note-taker)
 
