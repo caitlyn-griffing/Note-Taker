@@ -1,2 +1,34 @@
 # note-taker
-I have modified start code to create an application that can be used to write and save notes. This application uses an Express.js back end that I have built. This applicaiton saves and retrieves note data from a JSON file. Then I connect the front end to the back end and have deployed to Heroku.
+
+> If you are not willing to learn, no one can help you. If you are determined to learn, no one can stop you. -Zig Ziglar
+
+## Description
+
+I have modified start code to create an application that can be used to write and save notes. I have built the entire back end of this application using Express.js, which includes saving and retrieving note data from a JSON file. I then connected the front end to the back end and deployed it to Heroku.
+
+---
+
+
+## Important Links
+
+- [Deployed URL](https://caitlyn-griffing.github.io/note-taker/)
+
+- [GitHub URL](https://github.com/caitlyn-griffing/note-taker)
+
+
+---
+
+## Images of Deployed Web Page
+
+
+![Image 1](assets/images/ntSS1.png)
+
+![Image 2](assets/images/ntSS2.png)
+
+![Image 3](assets/images/ntSS3.png)
+
+![Image 4](assets/images/ntSS4.png)
+
+![Image 5](assets/images/ntSS5.png)
+
+---
