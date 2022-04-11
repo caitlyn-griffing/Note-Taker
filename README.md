@@ -8,6 +8,14 @@ I have modified start code to create an application that can be used to write an
 
 ---
 
+## Table of Contents
+
+- [Important Links](#important-links)
+- [Usage](#usage)
+- [Images](#images)
+- [Frameworks](#frameworks)
+- [License](#license)
+
 
 ## Important Links
 
@@ -15,10 +23,16 @@ I have modified start code to create an application that can be used to write an
 
 - [GitHub URL](https://github.com/caitlyn-griffing/note-taker)
 
+---
+
+## Usage
+
+- This application is invoked by running **npm start** in the command line
+(localhost:3000).
 
 ---
 
-## Images of Deployed Web Page
+## Images
 
 
 ![Image 1](public/assets/images/ntSS1.png)
@@ -32,3 +46,15 @@ I have modified start code to create an application that can be used to write an
 ![Image 5](public/assets/images/ntSS5.png)
 
 ---
+
+## Frameworks
+
+- [Node.js](https://nodejs.org/en/)
+- [Express.js](https://expressjs.com/)
+
+---
+
+## License
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-hotpink.svg)](https://opensource.org/licenses/MIT)
+
