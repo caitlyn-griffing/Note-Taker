@@ -16,6 +16,7 @@ I have modified start code to create an application that can be used to write an
 - [Frameworks](#frameworks)
 - [License](#license)
 
+---
 
 ## Important Links
 
